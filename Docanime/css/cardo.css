@@ -1,0 +1,269 @@
+.sec{
+    margin-left: 5.5%;
+    margin-top: 2%;
+    margin-right: 4.9%;
+    align-items: center;
+}
+
+.container{
+    overflow-x: auto;
+    max-width: max-content;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    overscroll-behavior-inline: contain;
+}
+
+.containerr{
+    max-width: max-content;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    overscroll-behavior-inline: contain;
+}
+
+.container2{
+    max-width: max-content;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: auto auto auto auto;
+    overscroll-behavior-inline: contain;
+}
+
+.container::-webkit-scrollbar{
+    width: 0;
+}
+
+.conent{
+    width: 280px;
+    max-height: fit-content;
+    background: none;
+    border-bottom: 0px solid rgb(17, 16, 16);
+    border-left: 0px solid rgb(17, 16, 16);
+    border-right: 0px solid rgb(17, 16, 16);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.conent2{
+    width: 280px;
+    max-height: fit-content;
+    background: none;
+    border-bottom: 0px solid rgb(17, 16, 16);
+    border-left: 0px solid rgb(17, 16, 16);
+    border-right: 0px solid rgb(17, 16, 16);
+    border-top-left-radius: 30;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.conent4{
+    width: 280px;
+    height: 475px;
+    background: none;
+    border-bottom: 1px solid rgb(17, 16, 16);
+    border-left: 1.2px solid red;
+    border-right: 1px solid rgb(17, 16, 16);
+    border-top-left-radius: 22px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+}
+
+.conent3{
+    width: 280px;
+    height: 438px;
+    background: none;
+    border-bottom: 1px solid rgb(17, 16, 16);
+    border-left: 1px solid red;
+    border-right: 1px solid rgb(17, 16, 16);
+    border-top-left-radius: 22px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+}
+
+section .card .image{
+    height: 350px;
+    width: 28px;
+}
+section .card .image{
+    height: 350px;
+    width: 280px;
+}
+
+section .card .images{
+    height: 340px;
+    width: 28px;
+}
+section .card .images{
+    height: 340px;
+    width: 280px;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.Rating{
+    background-repeat: no-repeat;
+    background-image: url("../img/star.png");
+    background-size: 10px;
+    background-color: transparent;
+    background-position: 10%;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+    margin-top: 1%;
+    margin-left: 1%;
+    color: white;
+    width: 100%;
+    text-align: right;
+    padding-right: 20%;
+
+}
+
+.tonton1{
+    background: none;
+    margin-top: 25px;
+    margin-left: 73%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 30%;
+    height: 19px;
+    color: white;
+    font-size: 11px;
+    background: url("../img/Next.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 95%;
+    padding-right: 18px;
+}
+
+.tonton2{
+    background: none;
+    margin-top: 25px;
+    margin-left: 73%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 30%;
+    height: 19px;
+    color: white;
+    font-size: 11px;
+    background: url("../img/Next.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 95%;
+    padding-right: 18px;
+}
+
+.tonton{
+    background: none;
+    margin-left: 83%;
+    border-left: 1px solid red;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 20%;
+    height: 19px;
+}
+
+.Nama{
+    font-size: 70%;
+}
+
+.Tgl{
+    font-size: 37%;
+}
+
+.li{
+    color: whitesmoke;
+    font-size: 75%;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+
+section .card .images img{
+    height: 115%;
+    width: 99.1%;
+    border-top-left-radius: 23.5px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+}
+
+section .card .image video{
+    height: 122%;
+    width: 99.4%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 10px;
+    opacity: 0.3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section .card .image .vid2{
+    height: 130%;
+    width: 99.4%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.3;
+}
+
+.card{
+    border-radius: 5px;
+}
+
+
+.Judul2{
+    margin-top: 40px;
+    padding-left: 5%;
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
+
+.footer{
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-top: 2rem;
+    width: 100%;
+    height: 51px;
+    border: 1px solid red;
+}
+
+.foot{
+    color: white;
+}
+
+.Icon1{
+    margin-left: 10px;
+    padding-top: 4px;
+}
+
+
+.Icon2{
+    margin-left: 10px;
+    padding-top: 4px;
+}
+
+
+.Icon3{
+    margin-left: 10px;
+    padding-top: 4px;
+    margin-right: 30px;
+}
+
+/*     background-color: rgb(27, 24, 24);  */
